@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root{
+  --default-text-color:#424242;
+}
+
+body {
+  background-color: #E5E5E5;
+  font-family: 'Roboto';
+}
+
+.header {
+  height: 80px;
+  width: 100%;
+  -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+}
+
+
+.header .sub-header {
+  width: 46.8rem;
+  height: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-content: space-between;
+        
+}
+
+
+.header .sub-header div{
+  display: flex;
+  align-items: center;
+}
+
+.header .sub-header div .brand-logo {
+  padding-right: 1rem;
+  font-size: 1.5rem;
+}
+.header .sub-header h4{
+  font-weight: 500;
+  color:var(--default-text-color);
+}
+
+/*
+add item text and button design start from here
+add item text and button design start from here
+*/
+.add-list-section {
+  height: 66px;
+  width: 46.8rem;
+  margin: 2.5rem auto auto;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.add-list-section .add-list-sub-section {
+  width: 46.8rem;
+  height: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.add-list-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+  height: 100%;
+}
+
+.add-list-button button {
+  background-color: #fff;
+  border: none;
+  outline: none;
+  font-size: 30px;
+}
+
+.add-list-text-box {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.add-list-input {
+  width: 100%;
+  outline: none;
+  border: none;
+}
+
+
+
+.add-list-input::placeholder {
+  font-size: 14px;
+
+}
+
+/*
+add item text and button design end here
+add item text and button design end here
+*/
+/*
+    item table design start from here
+
+*/
+.item-table-section {
+  width: 46.8rem;
+  margin: 1rem auto;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.item-table-section .items-table {
+  width: 100%;
+  padding: 1rem;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.item-table-section .items-table th {
+  border-bottom: 1px solid #ddd;
+  font-weight: 500;
+  font-size:14px;
+}
+
+.item-table-column {
+  text-align: left;
+  padding: 1.4rem;
+}
+
+.item-table-column:nth-child(1) {
+  width: 10rem;
+}
+
+.item-table-column:nth-child(2) {
+  width: 10rem;
+}
+
+.item-table-column:nth-child(4) {
+  width: 1rem;
+}
+
+.item-table-column:nth-child(5) {
+  width: 1rem;
+}
+
+.item-table-column:nth-child(6) {
+  width: 1rem;
+}
+
+
+
+/*
+    item table design end here from here
+*/
+
+
+
+
+
+
+
+/* indivisual item section design start from here..*/
+.item-table-section .items-table .indivisual-item {
+  padding: 0.4rem;
+}
+
+.add-list-indivisual-section {
+  background-color: #fff;
+  width: 46.8rem;
+  margin: auto;
+  border-top: 1px solid #ddd;
+}
+
+.add-list-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.add-list-li {
+  list-style-type: none;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 0.4rem;
+  margin: 10px;
+}
+
+.item-scroll-btn {
+  width: 30px;
+  -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+  list-style-type: none;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.item-scroll-btn img {
+  margin-top: -2px;
+  width: 20px;
+}
+
+.item-checkbox {
+  width: 1rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  cursor: pointer;
+  position: relative;
+}
+
+.checkbox-label {
+  margin: -2px 0px 0px 5px;
+}
+
+.quantity-text-box {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #BDBDBD;
+  width: 2rem;
+  margin-left: 1rem;
+}
+
+.checked-list-table-head {
+  background: #4A8D47;
+}
+
+.checked-list-table-column {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+.checked-list-text {
+  margin-left: 10px;
+}
+.checked-list-text-img{
+  display: flex;
+  align-items: center;
+}
+.checked-list-table-column .checked-list-text-img img {
+  width: 15px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+/*indivisual item section design end right here*/
+/*# sourceMappingURL=main.css.map */
