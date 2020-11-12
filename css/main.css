@@ -185,7 +185,7 @@ add item text and button design end here
 
 /* indivisual item section design start from here..*/
 .item-table-section .items-table .indivisual-item {
-  padding: 0.6rem;
+  padding: 0.1rem;
 }
 
 .add-list-indivisual-section {
@@ -355,12 +355,12 @@ add item text and button design end here
 /*indivisual setting area*/
 
 .indivisual-item-setting{
-  height: 9.5rem;
-  width: 14rem;
+  height:100px;
+  width: 160px;
   background-color: #fff;
   margin:auto;
   border-radius: 5px;
-  padding:1.5rem;
+  padding:10px;
 }
 
 .indivisual-setting-rename-area{
@@ -375,10 +375,10 @@ add item text and button design end here
 }
 
 .indivisual-setting-img{
-  width:22px;
+  width:20px;
 }
 .indivisual-setting-para{
-  margin:1rem;
+  margin:.7rem;
 }
 
 /*indivisual setting area*/
