@@ -184,6 +184,7 @@ add item text and button design end here
 
 
 /* indivisual item section design start from here..*/
+
 .item-table-section .items-table .indivisual-item {
   padding: 0.1rem;
 }
@@ -255,11 +256,14 @@ add item text and button design end here
   background: #4A8D47;
 }
 
+.checked-list-table-body{
+  background:#F2FDE4;
+}
+
 .checked-list-table-column {
   color: white;
   font-size: 14px;
   font-weight: 400;
-  letter-spacing: 3px;
 }
 
 .checked-list-title {
