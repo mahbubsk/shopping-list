@@ -1,9 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 
-/* html{
-  font-size: 62.5%;
-} */
-
+:root{
+  --default-text-color:#424242;
+}
 * {
   padding: 0;
   margin: 0;
@@ -11,9 +10,6 @@
           box-sizing: border-box;
 }
 
-:root{
-  --default-text-color:#424242;
-}
 
 body {
   background-color: #E5E5E5;
@@ -69,7 +65,7 @@ add item text and button design start from here
 }
 
 .add-list-section {
-  margin: 2.5rem auto auto;
+  margin: 2.5rem auto;
   background-color: #fff;
   border-radius: 5px;
   width: 46.8rem;
@@ -112,9 +108,6 @@ add item text and button design start from here
   outline: none;
   border: none;
 }
-
-
-
 .add-list-input::placeholder {
   font-size: 14px;  
 
@@ -157,17 +150,10 @@ add item text and button design end here
   width: 10rem;
 }
 
-.item-table-column:nth-child(4) {
+.item-table-column:nth-child(4),.item-table-column:nth-child(5),.item-table-column:nth-child(6){
   width: 1rem;
 }
 
-.item-table-column:nth-child(5) {
-  width: 1rem;
-}
-
-.item-table-column:nth-child(6) {
-  width: 1rem;
-}
 
 .item-table-row:nth-child(even){
   background-color: #E5E5E5;
