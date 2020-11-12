@@ -20,7 +20,7 @@ body {
   font-family: 'Roboto';
 }
 
-.header {
+.menu {
   height: 80px;
   width: 100%;
   -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
@@ -29,7 +29,7 @@ body {
 }
 
 
-.header .sub-header {
+.menu .sub-menu {
   width: 46.8rem;
   height: 100%;
   margin: 0 auto;
@@ -44,16 +44,16 @@ body {
 }
 
 
-.header .sub-header div{
+.menu .sub-menu div{
   display: flex;
   align-items: center;
 }
 
-.header .sub-header div .brand-logo {
+.menu .sub-menu div .brand-logo {
   padding-right: 1rem;
   font-size: 1.5rem;
 }
-.header .sub-header h4{
+.menu .sub-menu h4{
   font-weight: 500;
   color:var(--default-text-color);
 }
@@ -65,15 +65,15 @@ add item text and button design start from here
 .add-list-section {
   height: 66px;
   width: 46.8rem;
+  
+}
+
+.add-list-section {
   margin: 2.5rem auto auto;
   background-color: #fff;
   border-radius: 5px;
-}
-
-.add-list-section .add-list-sub-section {
   width: 46.8rem;
   height: 100%;
-  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -185,7 +185,7 @@ add item text and button design end here
 
 /* indivisual item section design start from here..*/
 
-.item-table-section .items-table .indivisual-item {
+.item-table-section .items-table .indivisual-item-column {
   padding: 0.1rem;
 }
 
@@ -252,6 +252,12 @@ add item text and button design end here
 
 }
 
+
+
+
+
+
+/*checked list table design start from here.*/
 .checked-list-table-head {
   background: #4A8D47;
 }
@@ -289,7 +295,7 @@ add item text and button design end here
   margin-right: 1.5rem;
 }
 
-
+/*checked list table end here*/
 
 
 
