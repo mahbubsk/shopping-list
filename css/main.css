@@ -238,6 +238,7 @@ add item text and button design end here
 
 }
 
+/* indivisual item section design end  here..*/
 
 
 
@@ -328,7 +329,7 @@ add item text and button design end here
   text-align: center;
   margin: 2.5rem;
 }
-
+/*save and discard button design here.*/
 .btn{
   border:2px solid #4A8D47;
   outline:none;
@@ -359,17 +360,12 @@ add item text and button design end here
   padding:10px;
 }
 
-.indivisual-setting-rename-area{
+.indivisual-setting-rename-area,.indivisual-setting-delete-area{
   display: flex;
   align-items: center; 
 
 
 }
-.indivisual-setting-delete-area{
-  display: flex;
-  align-items: center;
-}
-
 .indivisual-setting-img{
   width:20px;
 }
