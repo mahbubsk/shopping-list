@@ -116,7 +116,7 @@ add item text and button design start from here
 
 
 .add-list-input::placeholder {
-  font-size: 14px;
+  font-size: 14px;  
 
 }
 
@@ -303,7 +303,6 @@ add item text and button design end here
   box-shadow: 3.36134px 3.36134px 8.40336px rgba(0, 0, 0, 0.25);
   border-radius: 6.72269px;
   margin: auto;
-  margin-bottom: 12rem;
 }
 
 .modal-title{
@@ -349,6 +348,41 @@ add item text and button design end here
   background-color:#4A8D47;
   color:#fff
 }
+
+/*modal design end*/
+
+
+/*indivisual setting area*/
+
+.indivisual-item-setting{
+  height: 9.5rem;
+  width: 14rem;
+  background-color: #fff;
+  margin:auto;
+  border-radius: 5px;
+  padding:1.5rem;
+}
+
+.indivisual-setting-rename-area{
+  display: flex;
+  align-items: center; 
+
+
+}
+.indivisual-setting-delete-area{
+  display: flex;
+  align-items: center;
+}
+
+.indivisual-setting-img{
+  width:22px;
+}
+.indivisual-setting-para{
+  margin:1rem;
+}
+
+/*indivisual setting area*/
+
 
 
 /*indivisual item section design end right here*/
